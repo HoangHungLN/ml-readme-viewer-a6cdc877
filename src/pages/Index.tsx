@@ -13,7 +13,7 @@ const Index = () => {
   useEffect(() => {
     const loadReadme = async () => {
       try {
-        const response = await fetch("/README.md");
+        const response = await fetch(`${import.meta.env.BASE_URL}README.md`);
         const markdown = await response.text();
         const parsed = parseReadme(markdown);
         setData(parsed);
