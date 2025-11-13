@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   // QUAN TRỌNG: Thay 'ml-readme-viewer-63046d6a' bằng tên repository thực tế của bạn
   // Ví dụ: nếu repo là 'my-project' thì dùng '/my-project/'
   // Nếu deploy lên username.github.io (custom domain) thì để '/'
-  base: process.env.GITHUB_PAGES ? '/MachineLearning_Assignment/' : '/',
+  base: process.env.GITHUB_PAGES ? '/ML_Assignment/' : '/',
   server: {
     host: "::",
     port: 8080,
